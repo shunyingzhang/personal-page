@@ -42,13 +42,13 @@ hr {
     width: 4%;
 }
 
-a {
+.footer-link {
     color: #F5E9CF;
     font-family: 'Roboto', sans-serif;
     margin: 0.8rem 1rem;
 }
 
-a:hover {
+.footer-link:hover {
    color: #40514E;
 }
 
@@ -86,9 +86,9 @@ a:hover {
 
 .top-cat {
     position: absolute;
-    left: 16rem;
-    top: 10rem;
-    width: 6.2rem;
+    left: 150px;
+    top: 40px;
+    width: 100px;
 }
 
 .bottom-cloud {
@@ -99,7 +99,7 @@ a:hover {
 
 .skill-row {
     width: 50%;
-    margin: 100px auto 100px auto;
+    margin: 80px auto 120px auto;
     text-align: left;
 }
 
@@ -118,6 +118,7 @@ a:hover {
 .profile-img {
     border-radius: 50%;
     width: 25%;
+    margin-bottom: 10px;
 }
 
 .copy-right{
@@ -151,3 +152,50 @@ a:hover {
     background-image: linear-gradient(to bottom, #AEE2FF, #11999E);
     text-decoration: none;
   }
+
+.navbar {
+    background-color: #1C82AD;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 5px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+.navbar-brand {
+    color: #F5E9CF !important;
+    font-family: 'Sacramento', cursive;
+}
+.navbar-nav  li a {
+    color: #F5E9CF !important;
+}
+.navbar-nav  li a:hover {
+    color: #AEE2FF !important;
+}
+
+
+.row {
+    width: 80%;
+    margin: auto;
+    padding-top: 30px;
+}
+.col {
+    padding: 30px 40px 10px 10px;
+}
+
+.card-body {
+    text-align: left;
+}
+
+.skill-img {
+    max-width: 60%;
+    padding: 30px
+}
+
+.skill-img1 {
+    max-width: 100%;
+    padding: 30px
+}
