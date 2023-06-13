@@ -103,13 +103,13 @@ hr {
     text-align: left;
 }
 
-.skill-img-web {
+.skill-img-left {
     width: 25%;
     float: left;
     margin-right: 1rem;
 }
 
-.skill-img-python {
+.skill-img-right {
     width: 25%;
     float: right;
     margin-left: 1rem;
